@@ -16,7 +16,9 @@ document.addEventListener("DOMContentLoaded", function() {
 })
 
 function runGame() {
-
+    //Creates two random numbers between 1 and 25, +1 because the initial number is zero, floor to be intenger
+    let num1 = Math.floor(Math.random() * 24) + 1;
+    let num2 = Math.floor(Math.random() * 25) + 1;
 }
 
 function checkAnswer() {
